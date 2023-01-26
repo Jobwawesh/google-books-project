@@ -8,7 +8,8 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
-    <div>
+
+    <div className="App">
       <Navbar setIsLoggedIn={setIsLoggedIn} />
       <Routes>
         <Route exact path="/logout" element={<logout />} />
