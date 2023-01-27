@@ -22,7 +22,7 @@ function Login(props) {
             </form>
             <button className="link-btn" onClick={() => props.onFormSwitch("sign up")}>Don't have an account? Sign up.</button>
         </div>
-    )
-}
+    );
+};
 
 export default Login;

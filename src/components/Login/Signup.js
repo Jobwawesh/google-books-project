@@ -24,7 +24,7 @@ function Signup (props) {
         </form>
         <button className="link-btn" onClick={() => props.onFormSwitch("login")}>Already have an account? login.</button>
     </div>
-    )
-}
+    );
+};
 
 export default Signup;
